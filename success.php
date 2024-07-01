@@ -91,7 +91,7 @@ try {
                         <div class="card-body">
                             <h5 class="card-title">There was an error processing your payment.</h5>
                             <p class="card-text">Error: <strong><?php echo htmlspecialchars($error_message); ?></strong></p>
-                            <a href="index.php" class="btn btn-danger btn-lg">Try Again</a>
+                            <a href="index.html" class="btn btn-danger btn-lg">Try Again</a>
                         </div>
                     </div>
                 <?php endif; ?>
